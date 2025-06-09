@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <meta name="description" content="Personal portfolio of Mateo González, Riwi Developer">
+  <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">Mateo Dev</h1>
+    <nav>
+      <a href="#about-me">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello! I'm Mateo González</h2>
+    <img src="./src/img/image 1.png" alt="photo" id="profile-photo"/>
+    <p>Developer | Learner | Creative Thinker</p>
+    <a href="https://github.com/mateus519" class="btn" target="_blank">Visit My GitHub</a>
+  </section>
+
+  <section id="about-me" class="info-section">
+    <h2>About Me</h2>
+    <p>I'm passionate about learning and overcoming challenges. I love creating projects that allow me to grow both professionally and personally. My personal goal is to become a full-stack developer and contribute to practical solutions. I look forward to working on a team that strives for innovation, collaboration, and continuous improvement.</p>
+    <ul>
+      <li>Teamwork & collaboration</li>
+      <li>Sales management</li>
+      <li>Digital tools</li>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="info-section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Product Validation System</h3>
+      <p>This was my first project, where I developed a Product Validation System with Python.</p>
+      <img src="./src/img/image 2.png" alt="Image" />
+      <table>
+        <tr>
+          <th>Project Name</th>
+          <th>Technologies</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Sistema de validación de productos</td>
+          <td>Python</td>
+          <td><a href="">View Project</a></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact" class="info-section">
+    <h2>Contact Me</h2>
+    <form action="/send" method="post" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" >
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" > 
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"> </textarea>
+      <a href="#" class="btn">Sent</a>
+    </form>
+  </section>
+
+  <footer>
+    <p>2025 &copy; Mateo González | Riwi Developer</p>
+  </footer>
+
+</body>
+</html>
